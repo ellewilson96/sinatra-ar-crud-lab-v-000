@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
   get '/' do
 
 
-  get '/shows' do 
+  get '/show' do 
     erb :show
   end
 end
