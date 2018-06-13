@@ -22,10 +22,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-  get '/' do
-
-
-  get '/show' do 
+  get '/show' do
     erb :show
   end
 end
