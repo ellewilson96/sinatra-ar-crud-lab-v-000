@@ -16,4 +16,6 @@ class ApplicationController < Sinatra::Base
   Post.create(blog: params[:name])
   erb :new
   end
+
+  
 end
